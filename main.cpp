@@ -13,7 +13,7 @@ int main() {
     srand(time(0));
     int again = 1;
     while (again == 1){
-        vector<string> dataset = {"Corcodie", "Rabit", "Cow", "Kangaroo"};
+        vector<string> dataset = {"Corcodie", "Rabit", "Cow", "Kangaroo"}; //This just initial word you can change it freely
         int player;
         int word = rand() % dataset.size();
         clearScreen();
